@@ -88,7 +88,7 @@ include 'components/header.php';
 
           <div class="product-grid">
             <article class="card reveal">
-              <img class="card__image" src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=900&q=80" alt="Espresso italiano servido em xícara elegante" loading="lazy" />
+              <img class="card__image" src="assets/img/espresso-card.jpg" alt="Espresso italiano servido em xícara elegante" loading="lazy" decoding="async" />
               <div class="card__body">
                 <div class="card__icon"><img src="assets/icons/espresso.svg" alt="Ícone de espresso" loading="lazy" /></div>
                 <h3>Espresso Italiano</h3>
@@ -97,7 +97,7 @@ include 'components/header.php';
               </div>
             </article>
             <article class="card reveal">
-              <img class="card__image" src="https://images.unsplash.com/photo-1499638673689-79a0b5115d87?auto=format&fit=crop&w=900&q=80" alt="Cappuccino com espuma cremosa" loading="lazy" />
+              <img class="card__image" src="assets/img/pastry-card.jpg" alt="Cappuccino com espuma cremosa" loading="lazy" decoding="async" />
               <div class="card__body">
                 <div class="card__icon"><img src="assets/icons/pastry.svg" alt="Ícone de doce" loading="lazy" /></div>
                 <h3>Dolci Artesanais</h3>
@@ -106,7 +106,7 @@ include 'components/header.php';
               </div>
             </article>
             <article class="card reveal">
-              <img class="card__image" src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=80" alt="Panini e croissants em mesa premium" loading="lazy" />
+              <img class="card__image" src="assets/img/panini-card.jpg" alt="Panini e croissants em mesa premium" loading="lazy" decoding="async" />
               <div class="card__body">
                 <div class="card__icon"><img src="assets/icons/panini.svg" alt="Ícone de panini" loading="lazy" /></div>
                 <h3>Panini & Croissants</h3>
@@ -121,7 +121,7 @@ include 'components/header.php';
       <section class="section ambient-section" id="ambiente">
         <div class="container ambient-grid">
           <div class="ambient-media reveal">
-            <img src="https://images.unsplash.com/photo-1517705008128-361805f42e86?auto=format&fit=crop&w=1200&q=80" alt="Interior sofisticado da cafeteria Millo Caffè" loading="lazy" />
+            <img src="assets/img/ambiente.jpg" alt="Interior sofisticado da cafeteria Millo Caffè" loading="lazy" decoding="async" />
           </div>
           <div class="ambient-copy reveal">
             <p class="section-label">Ambiente</p>
@@ -144,13 +144,13 @@ include 'components/header.php';
 
           <div class="gallery-grid">
             <a class="gallery-card reveal" href="https://www.instagram.com" target="_blank" rel="noopener">
-              <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80" alt="Café premium servido em ambiente elegante" loading="lazy" />
+              <img src="assets/img/instagram-1.jpg" alt="Café premium servido em ambiente elegante" loading="lazy" decoding="async" />
             </a>
             <a class="gallery-card reveal" href="https://www.instagram.com" target="_blank" rel="noopener">
-              <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=80" alt="Mesa com café, croissant e decoração sofisticada" loading="lazy" />
+              <img src="assets/img/instagram-2.jpg" alt="Mesa com café, croissant e decoração sofisticada" loading="lazy" decoding="async" />
             </a>
             <a class="gallery-card reveal" href="https://www.instagram.com" target="_blank" rel="noopener">
-              <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=900&q=80" alt="Momento de café com estética premium" loading="lazy" />
+              <img src="assets/img/instagram-3.jpg" alt="Momento de café com estética premium" loading="lazy" decoding="async" />
             </a>
           </div>
         </div>
