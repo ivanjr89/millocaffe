@@ -1,6 +1,7 @@
 const menuToggle = document.querySelector('.menu-toggle');
 const siteNav = document.querySelector('.site-nav');
 const siteHeader = document.querySelector('.site-header');
+const yearSpan = document.getElementById('year');
 
 if (menuToggle && siteNav) {
   menuToggle.addEventListener('click', () => {
@@ -25,7 +26,6 @@ if (siteHeader) {
   window.addEventListener('scroll', handleScroll, { passive: true });
 }
 
-const yearSpan = document.getElementById('year');
 if (yearSpan) {
   yearSpan.textContent = new Date().getFullYear();
 }
