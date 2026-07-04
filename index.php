@@ -88,7 +88,7 @@ include 'components/header.php';
 
           <div class="product-grid">
             <article class="card reveal">
-              <img class="card__image" src="assets/img/espresso-card.jpg" alt="Espresso italiano servido em xícara elegante" loading="lazy" decoding="async" />
+              <img class="card__image" src="assets/img/cafes/espresso.webp" alt="Espresso italiano servido em xícara elegante" loading="lazy" decoding="async" />
               <div class="card__body">
                 <div class="card__icon"><img src="assets/icons/espresso.svg" alt="Ícone de espresso" loading="lazy" /></div>
                 <h3>Espresso Italiano</h3>
@@ -97,7 +97,7 @@ include 'components/header.php';
               </div>
             </article>
             <article class="card reveal">
-              <img class="card__image" src="assets/img/pastry-card.jpg" alt="Cappuccino com espuma cremosa" loading="lazy" decoding="async" />
+              <img class="card__image" src="assets/img/cafes/tiramisu.webp" alt="Dolce artesanal com textura premium" loading="lazy" decoding="async" />
               <div class="card__body">
                 <div class="card__icon"><img src="assets/icons/pastry.svg" alt="Ícone de doce" loading="lazy" /></div>
                 <h3>Dolci Artesanais</h3>
@@ -106,7 +106,7 @@ include 'components/header.php';
               </div>
             </article>
             <article class="card reveal">
-              <img class="card__image" src="assets/img/panini-card.jpg" alt="Panini e croissants em mesa premium" loading="lazy" decoding="async" />
+              <img class="card__image" src="assets/img/cafes/croissant.webp" alt="Panini e croissants em mesa premium" loading="lazy" decoding="async" />
               <div class="card__body">
                 <div class="card__icon"><img src="assets/icons/panini.svg" alt="Ícone de panini" loading="lazy" /></div>
                 <h3>Panini & Croissants</h3>
@@ -121,7 +121,7 @@ include 'components/header.php';
       <section class="section ambient-section" id="ambiente">
         <div class="container ambient-grid">
           <div class="ambient-media reveal">
-            <img src="assets/img/ambiente.jpg" alt="Interior sofisticado da cafeteria Millo Caffè" loading="lazy" decoding="async" />
+            <img src="assets/img/ambiente/ambiente-01.webp" alt="Interior sofisticado da cafeteria Millo Caffè" loading="lazy" decoding="async" />
           </div>
           <div class="ambient-copy reveal">
             <p class="section-label">Ambiente</p>
@@ -144,13 +144,13 @@ include 'components/header.php';
 
           <div class="gallery-grid">
             <a class="gallery-card reveal" href="https://www.instagram.com" target="_blank" rel="noopener">
-              <img src="assets/img/instagram-1.jpg" alt="Café premium servido em ambiente elegante" loading="lazy" decoding="async" />
+              <img src="assets/img/instagram/instagram-01.webp" alt="Café premium servido em ambiente elegante" loading="lazy" decoding="async" />
             </a>
             <a class="gallery-card reveal" href="https://www.instagram.com" target="_blank" rel="noopener">
-              <img src="assets/img/instagram-2.jpg" alt="Mesa com café, croissant e decoração sofisticada" loading="lazy" decoding="async" />
+              <img src="assets/img/instagram/instagram-02.webp" alt="Mesa com café, croissant e decoração sofisticada" loading="lazy" decoding="async" />
             </a>
             <a class="gallery-card reveal" href="https://www.instagram.com" target="_blank" rel="noopener">
-              <img src="assets/img/instagram-3.jpg" alt="Momento de café com estética premium" loading="lazy" decoding="async" />
+              <img src="assets/img/instagram/instagram-03.webp" alt="Momento de café com estética premium" loading="lazy" decoding="async" />
             </a>
           </div>
         </div>
