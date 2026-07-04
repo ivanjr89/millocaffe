@@ -44,7 +44,11 @@
   transform: translateY(28px);
   transition: opacity 0.8s ease, transform 0.8s ease;
 }
-.reveal.is-visible { opacity: 1; transform: translateY(0); }
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: 0.9s;
+}
 
 .hero__card { animation: floatDrift 6s ease-in-out infinite; }
 @keyframes floatDrift {

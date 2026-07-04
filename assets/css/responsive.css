@@ -60,7 +60,10 @@
     align-items: flex-start;
   }
 
+  .card__media img,
+  .ambient-media img,
   .gallery-card img {
+    transform: none;
     height: 240px;
   }
 

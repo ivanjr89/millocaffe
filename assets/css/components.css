@@ -143,6 +143,22 @@
   border-radius: var(--radius-lg);
 }
 .card:hover, .gallery-card:hover { transform: translateY(-8px) scale(1.01); box-shadow: var(--shadow-strong); }
+.card__media,
+.gallery-card {
+  overflow: hidden;
+}
+.card__media img,
+.ambient-media img,
+.gallery-card img {
+  transition: transform 0.7s ease, filter 0.7s ease;
+  transform-origin: center;
+}
+.card:hover .card__media img,
+.ambient-media:hover img,
+.gallery-card:hover img {
+  transform: scale(1.04);
+  filter: saturate(1.04) contrast(1.02);
+}
 .card__body { padding: 1.35rem 1.4rem 1.6rem; }
 .card__icon {
   width: 48px;
