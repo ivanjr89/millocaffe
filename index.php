@@ -1,37 +1,12 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Millo Caffè é uma cafeteria premium italiana com espresso artesanal, ambiente sofisticado e experiência gastronômica refinada." />
-    <meta name="theme-color" content="#111111" />
-    <title>Millo Caffè | Cafeteria Premium Italiana</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/css/variables.css" />
-    <link rel="stylesheet" href="assets/css/typography.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/animations.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css" />
-  </head>
-  <body>
-    <a class="skip-link" href="#main-content">Pular para o conteúdo</a>
+<?php
+$page_title = 'Millo Caffè | Cafeteria Premium Italiana';
+$page_description = 'Millo Caffè é uma cafeteria premium italiana com espresso artesanal, ambiente sofisticado e experiência gastronômica refinada.';
+$page = 'home';
+include 'components/head.php';
+include 'components/header.php';
+?>
 
-    <header class="site-header" id="top">
-      <div class="container nav-shell">
-        <a href="index.html" class="brand" aria-label="Millo Caffè home">Millo <span>Caffè</span></a>
-        <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
-        <nav class="site-nav" aria-label="Navegação principal">
-          <a href="quem-somos.html">Quem Somos</a>
-          <a href="cardapio.html">Cardápio</a>
-          <a href="contato.html">Contato</a>
-        </nav>
-        <a class="nav-cta" href="contato.html">Reservar</a>
-      </div>
-    </header>
-
-    <main id="main-content">
+<main id="main-content">
       <section class="hero">
         <div class="container hero__content">
           <div class="hero__copy reveal">
@@ -39,8 +14,8 @@
             <h1>Uma experiência de café que se sente como arte.</h1>
             <p>Da moagem ao último gole, cada detalhe é pensado para oferecer uma experiência elegante, acolhedora e memorável.</p>
             <div class="hero__actions">
-              <a class="btn btn--primary" href="cardapio.html">Descobrir o Cardápio</a>
-              <a class="btn btn--secondary" href="contato.html">Visitar a Cafeteria</a>
+              <a class="btn btn--primary" href="cardapio.php">Descobrir o Cardápio</a>
+              <a class="btn btn--secondary" href="contato.php">Visitar a Cafeteria</a>
             </div>
             <div class="hero__highlights">
               <div>
@@ -82,7 +57,7 @@
             <p class="section-label">Nossa Essência</p>
             <h2 class="section-title">Luxury em cada detalhe.</h2>
             <p class="section-intro">Millo Caffè une tradição italiana, design contemporâneo e uma execução impecável para criar um espaço sofisticado para café, conversa e pausa.</p>
-            <a class="btn btn--primary" href="quem-somos.html">Conhecer a Marca</a>
+            <a class="btn btn--primary" href="quem-somos.php">Conhecer a Marca</a>
           </div>
           <div class="essence-points reveal">
             <article>
@@ -108,7 +83,7 @@
               <p class="section-label">Produtos em Destaque</p>
               <h2 class="section-title">Sips de assinatura e doces artesanais.</h2>
             </div>
-            <a class="text-link" href="cardapio.html">Ver o cardápio completo</a>
+            <a class="text-link" href="cardapio.php">Ver o cardápio completo</a>
           </div>
 
           <div class="product-grid">
@@ -152,7 +127,7 @@
             <p class="section-label">Ambiente</p>
             <h2 class="section-title">Uma atmosfera para desacelerar e se inspirar.</h2>
             <p class="section-intro">Janelas amplas, luz difusa e uma disposição cuidadosa de mesas criam uma experiência serena para trabalho, encontro ou descanso.</p>
-            <a class="btn btn--primary" href="contato.html">Agendar uma visita</a>
+            <a class="btn btn--primary" href="contato.php">Agendar uma visita</a>
           </div>
         </div>
       </section>
@@ -182,48 +157,11 @@
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="container footer-grid">
-        <div>
-          <a href="index.html" class="brand" aria-label="Millo Caffè home">Millo <span>Caffè</span></a>
-          <p>Uma cafeteria premium italiana para quem valoriza café, design e presença.</p>
-        </div>
-        <div>
-          <h3>Navegação</h3>
-          <ul class="footer-list">
-            <li><a href="quem-somos.html">Quem Somos</a></li>
-            <li><a href="cardapio.html">Cardápio</a></li>
-            <li><a href="contato.html">Contato</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3>Contato</h3>
-          <ul class="footer-list">
-            <li><a href="tel:+5511999999999">+55 11 99999-9999</a></li>
-            <li><a href="mailto:contato@millocaffe.com">contato@millocaffe.com</a></li>
-            <li>Via Roma 18, Milano</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Mapa</h3>
-          <iframe title="Mapa da Millo Caffè" src="https://www.google.com/maps?q=Milano&output=embed" loading="lazy"></iframe>
-        </div>
-      </div>
-      <div class="container footer-bottom">
-        <span>© <span id="year"></span> Millo Caffè. Todos os direitos reservados.</span>
-        <div class="social-links">
-          <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
-          <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>
-        </div>
-      </div>
-    </footer>
+<?php include 'components/footer.php'; ?>
 
-    <a class="whatsapp-float" href="https://wa.me/5511999999999?text=Olá%2C%20gostaria%20de%20reservar%20uma%20mesa%20na%20Millo%20Caff%C3%A8." target="_blank" rel="noopener" aria-label="Conversar pelo WhatsApp">
-      <img src="assets/icons/whatsapp.svg" alt="WhatsApp" loading="lazy" />
-    </a>
-
-    <script src="assets/js/app.js"></script>
-    <script src="assets/js/slider.js"></script>
-    <script src="assets/js/reveal.js"></script>
-  </body>
+<script defer src="assets/js/performance.js"></script>
+<script defer src="assets/js/app.js"></script>
+<script defer src="assets/js/slider.js"></script>
+<script defer src="assets/js/reveal.js"></script>
+</body>
 </html>

@@ -1,6 +1,9 @@
 const revealItems = document.querySelectorAll('.reveal');
+const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 
-if ('IntersectionObserver' in window) {
+if (prefersReducedMotion.matches) {
+  revealItems.forEach((item) => item.classList.add('is-visible'));
+} else if ('IntersectionObserver' in window) {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {

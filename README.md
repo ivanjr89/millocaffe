@@ -4,20 +4,20 @@ Site institucional premium para uma cafeteria italiana com identidade sofisticad
 
 ## Estrutura do projeto
 
-- index.html
-- quem-somos.html
-- cardapio.html
-- contato.html
-- assets/css/variables.css
-- assets/css/style.css
+- index.php
+- quem-somos.php
+- cardapio.php
+- contato.php
+- assets/css/base.css
+- assets/css/layout.css
+- assets/css/components.css
+- assets/css/pages.css
 - assets/css/responsive.css
-- assets/css/animations.css
-- assets/css/typography.css
 - assets/js/app.js
 - assets/js/menu.js
 - assets/js/slider.js
 - assets/js/reveal.js
-- assets/img/
+- assets/images/
 - assets/icons/
 - components/
 

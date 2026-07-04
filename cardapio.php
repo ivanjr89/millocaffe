@@ -1,43 +1,18 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Explore o cardápio da Millo Caffè com cafés especiais, doces artesanais e paninis." />
-    <title>Cardápio | Millo Caffè</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/css/variables.css" />
-    <link rel="stylesheet" href="assets/css/typography.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/animations.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css" />
-  </head>
-  <body>
-    <header class="site-header" id="top">
-      <div class="container nav-shell">
-        <a href="index.html" class="brand" aria-label="Millo Caffè home">Millo <span>Caffè</span></a>
-        <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
-        <nav class="site-nav" aria-label="Navegação principal">
-          <a href="quem-somos.html">Quem Somos</a>
-          <a href="cardapio.html">Cardápio</a>
-          <a href="contato.html">Contato</a>
-        </nav>
-        <a class="nav-cta" href="contato.html">Reservar</a>
-      </div>
-    </header>
+<?php
+$page_title = 'Cardápio | Millo Caffè';
+$page_description = 'Explore o cardápio da Millo Caffè com cafés especiais, doces artesanais e paninis.';
+$page = 'menu';
+include 'components/head.php';
+include 'components/header.php';
+?>
 
-    <main id="main-content">
-      <section class="hero hero--inner">
-        <div class="container hero__content hero__content--inner reveal">
-          <div>
-            <p class="eyebrow">Cardápio</p>
-            <h1>Uma seleção de cafés, doces e salgadas preparadas com excelência.</h1>
-            <p>Da clássica experiência espresso à mesa com croissant e panini, cada item é pensado para agradar ao paladar mais refinado.</p>
-          </div>
-        </div>
-      </section>
+<main id="main-content">
+<?php
+$eyebrow = 'Cardápio';
+$title = 'Uma seleção de cafés, doces e salgadas preparadas com excelência.';
+$text = 'Da clássica experiência espresso à mesa com croissant e panini, cada item é pensado para agradar ao paladar mais refinado.';
+include 'components/page-hero.php';
+?>
 
       <section class="section">
         <div class="container">
@@ -82,20 +57,11 @@
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="container footer-grid">
-        <div>
-          <a href="index.html" class="brand" aria-label="Millo Caffè home">Millo <span>Caffè</span></a>
-          <p>Cardápio fino, café especial e ambiente acolhedor.</p>
-        </div>
-      </div>
-      <div class="container footer-bottom">
-        <span>© <span id="year"></span> Millo Caffè. Todos os direitos reservados.</span>
-      </div>
-    </footer>
+<?php include 'components/footer.php'; ?>
 
-    <script src="assets/js/app.js"></script>
-    <script src="assets/js/menu.js"></script>
-    <script src="assets/js/reveal.js"></script>
-  </body>
+<script defer src="assets/js/performance.js"></script>
+<script defer src="assets/js/app.js"></script>
+<script defer src="assets/js/menu.js"></script>
+<script defer src="assets/js/reveal.js"></script>
+</body>
 </html>
