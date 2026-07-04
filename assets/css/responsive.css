@@ -4,12 +4,17 @@
   .ambient-grid,
   .product-grid,
   .gallery-grid,
-  .footer-grid {
+  .footer-grid,
+  .contact-grid {
     grid-template-columns: 1fr;
   }
 
   .footer-grid {
-    gap: 1.2rem;
+    gap: 1.4rem;
+  }
+
+  .hero__card {
+    max-width: 520px;
   }
 }
 
@@ -43,7 +48,8 @@
 
   .hero {
     min-height: auto;
-    padding-top: 6rem;
+    padding-top: 6.5rem;
+    padding-bottom: 4.5rem;
   }
 
   .hero__highlights,
@@ -56,5 +62,9 @@
 
   .gallery-card img {
     height: 240px;
+  }
+
+  .section {
+    padding: 4.5rem 0;
   }
 }

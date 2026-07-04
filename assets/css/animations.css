@@ -1,27 +1,6 @@
-.reveal {
-  opacity: 0;
-  transform: translateY(24px);
-  transition: opacity 0.7s ease, transform 0.7s ease;
-}
-
-.reveal.is-visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.card,
-.gallery-card,
-.btn,
-.nav-cta,
-.site-nav a,
-.site-header,
-.whatsapp-float {
-  transition: all 360ms ease;
-}
-
 .hero--inner {
-  min-height: 72vh;
-  padding-top: 8rem;
+  min-height: 76vh;
+  padding-top: 8.5rem;
 }
 
 .hero__content--inner {
@@ -32,25 +11,41 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.8rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.75rem;
 }
 
 .filter-btn {
   border: 1px solid rgba(17, 17, 17, 0.12);
-  background: transparent;
+  background: rgba(255, 255, 255, 0.7);
   border-radius: 999px;
-  padding: 0.55rem 0.95rem;
+  padding: 0.6rem 1rem;
   cursor: pointer;
+  font-weight: 500;
 }
 
 .filter-btn.is-active {
-  background: var(--color-gold);
+  background: linear-gradient(135deg, var(--color-gold) 0%, #d7b27b 100%);
   color: var(--color-ink);
   border-color: var(--color-gold);
+  box-shadow: 0 10px 24px rgba(197, 164, 109, 0.2);
 }
 
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 2rem;
+}
+
+@keyframes floatDrift {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.hero__card {
+  animation: floatDrift 6s ease-in-out infinite;
 }
