@@ -89,7 +89,7 @@ include 'components/header.php';
           <div class="product-grid">
             <article class="card reveal">
               <div class="card__media">
-                <img class="card__image" src="assets/img/cafes/espresso-640.webp" srcset="assets/img/cafes/espresso-640.webp 640w, assets/img/cafes/espresso-960.webp 960w, assets/img/cafes/espresso-1440.webp 1440w" sizes="(max-width: 768px) 100vw, 33vw" alt="Espresso italiano servido em xícara elegante" loading="lazy" decoding="async" />
+                <img class="card__image" src="assets/img/cafes/espresso-640.webp" srcset="assets/img/cafes/espresso-640.webp 640w, assets/img/cafes/espresso-960.webp 960w, assets/img/cafes/espresso-1440.webp 1440w" sizes="(max-width: 768px) 100vw, 33vw" alt="Espresso italiano servido em xícara elegante" width="640" height="400" loading="lazy" decoding="async" />
               </div>
               <div class="card__body">
                 <div class="card__icon"><img src="assets/icons/espresso.svg" alt="Ícone de espresso" loading="lazy" /></div>
@@ -100,7 +100,7 @@ include 'components/header.php';
             </article>
             <article class="card reveal">
               <div class="card__media">
-                <img class="card__image" src="assets/img/cafes/tiramisu-640.webp" srcset="assets/img/cafes/tiramisu-640.webp 640w, assets/img/cafes/tiramisu-960.webp 960w, assets/img/cafes/tiramisu-1440.webp 1440w" sizes="(max-width: 768px) 100vw, 33vw" alt="Dolce artesanal com textura premium" loading="lazy" decoding="async" />
+                <img class="card__image" src="assets/img/cafes/tiramisu-640.webp" srcset="assets/img/cafes/tiramisu-640.webp 640w, assets/img/cafes/tiramisu-960.webp 960w, assets/img/cafes/tiramisu-1440.webp 1440w" sizes="(max-width: 768px) 100vw, 33vw" alt="Dolce artesanal com textura premium" width="640" height="400" loading="lazy" decoding="async" />
               </div>
               <div class="card__body">
                 <div class="card__icon"><img src="assets/icons/pastry.svg" alt="Ícone de doce" loading="lazy" /></div>
@@ -111,7 +111,7 @@ include 'components/header.php';
             </article>
             <article class="card reveal">
               <div class="card__media">
-                <img class="card__image" src="assets/img/cafes/croissant-640.webp" srcset="assets/img/cafes/croissant-640.webp 640w, assets/img/cafes/croissant-960.webp 960w, assets/img/cafes/croissant-1440.webp 1440w" sizes="(max-width: 768px) 100vw, 33vw" alt="Panini e croissants em mesa premium" loading="lazy" decoding="async" />
+                <img class="card__image" src="assets/img/cafes/croissant-640.webp" srcset="assets/img/cafes/croissant-640.webp 640w, assets/img/cafes/croissant-960.webp 960w, assets/img/cafes/croissant-1440.webp 1440w" sizes="(max-width: 768px) 100vw, 33vw" alt="Panini e croissants em mesa premium" width="640" height="400" loading="lazy" decoding="async" />
               </div>
               <div class="card__body">
                 <div class="card__icon"><img src="assets/icons/panini.svg" alt="Ícone de panini" loading="lazy" /></div>
@@ -127,7 +127,7 @@ include 'components/header.php';
       <section class="section ambient-section" id="ambiente">
         <div class="container ambient-grid">
           <div class="ambient-media reveal">
-            <img src="assets/img/ambiente/ambiente-01-640.webp" srcset="assets/img/ambiente/ambiente-01-640.webp 640w, assets/img/ambiente/ambiente-01-960.webp 960w, assets/img/ambiente/ambiente-01-1440.webp 1440w" sizes="(max-width: 768px) 100vw, 50vw" alt="Interior sofisticado da cafeteria Millo Caffè" loading="lazy" decoding="async" />
+            <img src="assets/img/ambiente/ambiente-01-640.webp" srcset="assets/img/ambiente/ambiente-01-640.webp 640w, assets/img/ambiente/ambiente-01-960.webp 960w, assets/img/ambiente/ambiente-01-1440.webp 1440w" sizes="(max-width: 768px) 100vw, 50vw" alt="Interior sofisticado da cafeteria Millo Caffè" width="640" height="480" loading="lazy" decoding="async" />
           </div>
           <div class="ambient-copy reveal">
             <p class="section-label">Ambiente</p>
@@ -150,13 +150,13 @@ include 'components/header.php';
 
           <div class="gallery-grid">
             <a class="gallery-card reveal" href="https://www.instagram.com" target="_blank" rel="noopener">
-              <img src="assets/img/instagram/instagram-01-640.webp" srcset="assets/img/instagram/instagram-01-640.webp 640w, assets/img/instagram/instagram-01-960.webp 960w, assets/img/instagram/instagram-01-1440.webp 1440w" sizes="(max-width: 768px) 100vw, 33vw" alt="Café premium servido em ambiente elegante" loading="lazy" decoding="async" />
+              <img src="assets/img/instagram/instagram-01-640.webp" srcset="assets/img/instagram/instagram-01-640.webp 640w, assets/img/instagram/instagram-01-960.webp 960w, assets/img/instagram/instagram-01-1440.webp 1440w" sizes="(max-width: 768px) 100vw, 33vw" alt="Café premium servido em ambiente elegante" width="640" height="480" loading="lazy" decoding="async" />
             </a>
             <a class="gallery-card reveal" href="https://www.instagram.com" target="_blank" rel="noopener">
-              <img src="assets/img/instagram/instagram-02-640.webp" srcset="assets/img/instagram/instagram-02-640.webp 640w, assets/img/instagram/instagram-02-960.webp 960w, assets/img/instagram/instagram-02-1440.webp 1440w" sizes="(max-width: 768px) 100vw, 33vw" alt="Mesa com café, croissant e decoração sofisticada" loading="lazy" decoding="async" />
+              <img src="assets/img/instagram/instagram-02-640.webp" srcset="assets/img/instagram/instagram-02-640.webp 640w, assets/img/instagram/instagram-02-960.webp 960w, assets/img/instagram/instagram-02-1440.webp 1440w" sizes="(max-width: 768px) 100vw, 33vw" alt="Mesa com café, croissant e decoração sofisticada" width="640" height="480" loading="lazy" decoding="async" />
             </a>
             <a class="gallery-card reveal" href="https://www.instagram.com" target="_blank" rel="noopener">
-              <img src="assets/img/instagram/instagram-03-640.webp" srcset="assets/img/instagram/instagram-03-640.webp 640w, assets/img/instagram/instagram-03-960.webp 960w, assets/img/instagram/instagram-03-1440.webp 1440w" sizes="(max-width: 768px) 100vw, 33vw" alt="Momento de café com estética premium" loading="lazy" decoding="async" />
+              <img src="assets/img/instagram/instagram-03-640.webp" srcset="assets/img/instagram/instagram-03-640.webp 640w, assets/img/instagram/instagram-03-960.webp 960w, assets/img/instagram/instagram-03-1440.webp 1440w" sizes="(max-width: 768px) 100vw, 33vw" alt="Momento de café com estética premium" width="640" height="480" loading="lazy" decoding="async" />
             </a>
           </div>
         </div>
