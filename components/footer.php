@@ -29,7 +29,7 @@
     <span>© <span id="year"></span> Millo Caffè. Todos os direitos reservados.</span>
     <div class="social-links">
       <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">Instagram</a>
-      <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">Facebook</a>
+     
     </div>
   </div>
 </footer>

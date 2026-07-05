@@ -8,8 +8,8 @@
 .hero p {
   font-size: 1.05rem;
   line-height: 1.85;
-  color: rgba(247, 247, 245, 0.83);
-  max-width: 640px;
+  /*color: rgba(247, 247, 245, 0.83);
+ */ max-width: 640px;
 }
 
 .eyebrow,
@@ -39,7 +39,7 @@
   font-size: 1.02rem;
 }
 
-.reveal {
+/*.reveal {
   opacity: 0;
   transform: translateY(28px);
   transition: opacity 0.8s ease, transform 0.8s ease;
@@ -48,7 +48,7 @@
   opacity: 1;
   transform: translateY(0);
   transition-duration: 0.9s;
-}
+}*/
 
 .hero__card { animation: floatDrift 6s ease-in-out infinite; }
 @keyframes floatDrift {

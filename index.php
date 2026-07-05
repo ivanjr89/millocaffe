@@ -3,14 +3,13 @@ $page_title = 'Millo Caffè | Cafeteria Premium Italiana';
 $page_description = 'Millo Caffè é uma cafeteria premium italiana com espresso artesanal, ambiente sofisticado e experiência gastronômica refinada.';
 $page = 'home';
 include 'components/head.php';
-include 'components/header.php';
+include 'components/header.php'; 
 ?>
 
 <main id="main-content">
       <section class="hero">
         <div class="container hero__content">
-          <div class="hero__copy reveal">
-            <p class="eyebrow">Café italiano • Ritual moderno • Espresso artesanal</p>
+          <div class="hero__copy">
             <h1>Uma experiência de café que se sente como arte.</h1>
             <p>Da moagem ao último gole, cada detalhe é pensado para oferecer uma experiência elegante, acolhedora e memorável.</p>
             <div class="hero__actions">
@@ -33,7 +32,7 @@ include 'components/header.php';
             </div>
           </div>
 
-          <aside class="hero__card reveal" aria-label="Bebidas em destaque">
+          <aside class="hero__card" aria-label="Bebidas em destaque">
             <p class="hero__card-label">Hoje na casa</p>
             <h2 id="slider-title">Espresso Romano</h2>
             <p id="slider-description">Um café intenso, encorpado e profundamente refinado.</p>
@@ -45,21 +44,18 @@ include 'components/header.php';
           </aside>
         </div>
 
-        <div class="scroll-indicator">
-          <span>Role para explorar</span>
-          <div class="scroll-indicator__line"></div>
-        </div>
+        
       </section>
 
       <section class="section section--light" id="essencia">
         <div class="container essence-grid">
-          <div class="reveal">
+          <div class="">
             <p class="section-label">Nossa Essência</p>
             <h2 class="section-title">Luxury em cada detalhe.</h2>
             <p class="section-intro">Millo Caffè une tradição italiana, design contemporâneo e uma execução impecável para criar um espaço sofisticado para café, conversa e pausa.</p>
             <a class="btn btn--primary" href="quem-somos.php">Conhecer a Marca</a>
           </div>
-          <div class="essence-points reveal">
+          <div class="essence-points">
             <article>
               <h3>Torrefação artesanal</h3>
               <p>Grãos selecionados com notas de caramelo, especiarias e flores.</p>
@@ -78,7 +74,7 @@ include 'components/header.php';
 
       <section class="section" id="products">
         <div class="container">
-          <div class="section-heading reveal">
+          <div class="section-heading">
             <div>
               <p class="section-label">Produtos em Destaque</p>
               <h2 class="section-title">Sips de assinatura e doces artesanais.</h2>
@@ -87,7 +83,7 @@ include 'components/header.php';
           </div>
 
           <div class="product-grid">
-            <article class="card reveal">
+            <article class="card">
               <div class="card__media">
                 <img class="card__image" src="assets/img/espresso-card.webp" alt="Espresso italiano servido em xícara elegante" width="640" height="400" loading="lazy" decoding="async" />
               </div>
@@ -98,7 +94,7 @@ include 'components/header.php';
                 <span>R$ 15</span>
               </div>
             </article>
-            <article class="card reveal">
+            <article class="card">
               <div class="card__media">
                 <img class="card__image" src="assets/img/pastry-card.webp" alt="Dolce artesanal com textura premium" width="640" height="400" loading="lazy" decoding="async" />
               </div>
@@ -109,7 +105,7 @@ include 'components/header.php';
                 <span>R$ 18</span>
               </div>
             </article>
-            <article class="card reveal">
+            <article class="card">
               <div class="card__media">
                 <img class="card__image" src="assets/img/panini-card.webp" alt="Panini e croissants em mesa premium" width="640" height="400" loading="lazy" decoding="async" />
               </div>
@@ -126,10 +122,10 @@ include 'components/header.php';
 
       <section class="section ambient-section" id="ambiente">
         <div class="container ambient-grid">
-          <div class="ambient-media reveal">
+          <div class="ambient-media">
             <img src="assets/img/ambiente.webp" alt="Interior sofisticado da cafeteria Millo Caffè" width="640" height="480" loading="lazy" decoding="async" />
           </div>
-          <div class="ambient-copy reveal">
+          <div class="ambient-copy">
             <p class="section-label">Ambiente</p>
             <h2 class="section-title">Uma atmosfera para desacelerar e se inspirar.</h2>
             <p class="section-intro">Janelas amplas, luz difusa e uma disposição cuidadosa de mesas criam uma experiência serena para trabalho, encontro ou descanso.</p>
@@ -140,7 +136,7 @@ include 'components/header.php';
 
       <section class="section section--dark" id="instagram">
         <div class="container">
-          <div class="section-heading section-heading--light reveal">
+          <div class="section-heading section-heading--light">
             <div>
               <p class="section-label">Instagram</p>
               <h2 class="section-title">Moments que inspiram o nosso universo.</h2>
@@ -149,13 +145,13 @@ include 'components/header.php';
           </div>
 
           <div class="gallery-grid">
-            <a class="gallery-card reveal" href="https://www.instagram.com" target="_blank" rel="noopener">
+            <a class="gallery-card" href="https://www.instagram.com" target="_blank" rel="noopener">
               <img src="assets/img/instagram-1.webp" alt="Café premium servido em ambiente elegante" width="640" height="480" loading="lazy" decoding="async" />
             </a>
-            <a class="gallery-card reveal" href="https://www.instagram.com" target="_blank" rel="noopener">
+            <a class="gallery-card" href="https://www.instagram.com" target="_blank" rel="noopener">
               <img src="assets/img/instagram-2.webp" alt="Mesa com café, croissant e decoração sofisticada" width="640" height="480" loading="lazy" decoding="async" />
             </a>
-            <a class="gallery-card reveal" href="https://www.instagram.com" target="_blank" rel="noopener">
+            <a class="gallery-card" href="https://www.instagram.com" target="_blank" rel="noopener">
               <img src="assets/img/instagram-3.webp" alt="Momento de café com estética premium" width="640" height="480" loading="lazy" decoding="async" />
             </a>
           </div>

@@ -16,12 +16,12 @@ include 'components/page-hero.php';
 
       <section class="section section--light">
         <div class="container essence-grid">
-          <div class="reveal">
+          <div class="">
             <p class="section-label">Nossa Filosofia</p>
             <h2 class="section-title">Café com personalidade, ritual e presença.</h2>
             <p class="section-intro">Na Millo Caffè, cada xícara é preparada com respeito à origem do grão, à técnica do barista e à sensibilidade do cliente.</p>
           </div>
-          <div class="essence-points reveal">
+          <div class="essence-points ">
             <article>
               <h3>Origem</h3>
               <p>Selecionamos grãos de produtores que valorizam qualidade, ética e sabores profundos.</p>
@@ -39,6 +39,6 @@ include 'components/page-hero.php';
 
 <script defer src="assets/js/performance.js"></script>
 <script defer src="assets/js/app.js"></script>
-<script defer src="assets/js/reveal.js"></script>
+<script defer src="assets/js/.js"></script>
 </body>
 </html>

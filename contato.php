@@ -16,7 +16,7 @@ include 'components/page-hero.php';
 
       <section class="section section--light">
         <div class="container contact-grid">
-          <div class="reveal">
+          <div class="">
             <h2 class="section-title">Visite-nos</h2>
             <p class="section-intro">Atendemos de segunda a domingo, das 07:00 às 20:00, com atendimento para reservas, eventos e pedidos especiais.</p>
             <ul class="footer-list">
@@ -25,7 +25,7 @@ include 'components/page-hero.php';
               <li>Via Roma 18, Milano</li>
             </ul>
           </div>
-          <div class="card reveal">
+          <div class="card ">
             <div class="card__body">
               <h3>Reserva rápida</h3>
               <p>Encontre o horário ideal para sua visita ou experimente nosso serviço de WhatsApp para atendimento imediato.</p>
@@ -40,6 +40,6 @@ include 'components/page-hero.php';
 
 <script defer src="assets/js/performance.js"></script>
 <script defer src="assets/js/app.js"></script>
-<script defer src="assets/js/reveal.js"></script>
+<script defer src="assets/js/.js"></script>
 </body>
 </html>

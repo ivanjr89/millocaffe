@@ -16,7 +16,7 @@ include 'components/page-hero.php';
 
       <section class="section">
         <div class="container">
-          <div class="menu-filters reveal" role="tablist" aria-label="Filtrar cardápio">
+          <div class="menu-filters " role="tablist" aria-label="Filtrar cardápio">
             <button class="filter-btn is-active" data-filter="all">Todos</button>
             <button class="filter-btn" data-filter="cafe">Cafés</button>
             <button class="filter-btn" data-filter="doce">Doces</button>
@@ -24,28 +24,28 @@ include 'components/page-hero.php';
           </div>
 
           <div class="product-grid">
-            <article class="card reveal" data-category="cafe">
+            <article class="card " data-category="cafe">
               <div class="card__body">
                 <h3>Espresso Signature</h3>
                 <p>Intenso, equilibrado e com crema brilhante.</p>
                 <span>R$ 15</span>
               </div>
             </article>
-            <article class="card reveal" data-category="cafe">
+            <article class="card " data-category="cafe">
               <div class="card__body">
                 <h3>Cappuccino Milano</h3>
                 <p>Espuma cremosa e notas de cacau e baunilha.</p>
                 <span>R$ 18</span>
               </div>
             </article>
-            <article class="card reveal" data-category="doce">
+            <article class="card " data-category="doce">
               <div class="card__body">
                 <h3>Torta de Noz</h3>
                 <p>Textura macia, frutos secos e café em cada camada.</p>
                 <span>R$ 24</span>
               </div>
             </article>
-            <article class="card reveal" data-category="salgado">
+            <article class="card " data-category="salgado">
               <div class="card__body">
                 <h3>Panini de Parma</h3>
                 <p>Presunto cru, queijo brie e rúcula em pão artesanal.</p>
@@ -62,6 +62,6 @@ include 'components/page-hero.php';
 <script defer src="assets/js/performance.js"></script>
 <script defer src="assets/js/app.js"></script>
 <script defer src="assets/js/menu.js"></script>
-<script defer src="assets/js/reveal.js"></script>
+<script defer src="assets/js/.js"></script>
 </body>
 </html>
